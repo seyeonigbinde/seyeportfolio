@@ -10,6 +10,12 @@ import node from '../images/node.png'
 import postgresql from '../images/postgresql.png'
 import express from '../images/express.png'
 
+import altrest_app from '../images/altrest_app.png'
+import altrest_web from '../images/altrest_web.png'
+import easybank from '../images/easybank.png'
+import ariya from '../images/ariya.png'
+import todoapp from '../images/todoapp.png'
+
 const Homepage = () => {
 
 
@@ -22,7 +28,7 @@ const Homepage = () => {
                 <div>
                     <a href="#about" alt=""> Profile</a>
                     <a href="#skills" alt=""> Skills</a>
-                    <a href="#porfolio" alt=""> Projects</a>
+                    <a href="#portfolio" alt=""> Projects</a>
                     <a href="#contact" alt=""> Contact</a>
                 </div>
             </header>
@@ -47,7 +53,11 @@ const Homepage = () => {
                 <img src={express} alt=""/>
             </section>
             <section id="portfolio">
-
+                <img src={altrest_app} alt=""/>
+                <img src={ariya} alt=""/>
+                <img src={todoapp} alt=""/>
+                <img src={easybank} alt=""/>
+                <img src={altrest_web} alt=""/>  
             </section>
             <section id="contact">
 

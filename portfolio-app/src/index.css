@@ -50,6 +50,11 @@ header{
   justify-content: space-between;
   background-color: #eee;
 }
+#about{
+  width: 50%;
+  padding: 2%;
+  margin: 2% 40%;
+}
 #skills{
   display: flex;
   justify-content: space-between;
@@ -59,8 +64,21 @@ header{
   margin: 7% 10%;
 }
 #skills img{
-  width: 15%;
-  height: 19vh;
+  width: 17%;
+  height: 20vh;
   padding: 1% 1%;
   margin: 1%;
+}
+#portfolio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 3% 5%;
+}
+#portfolio img{
+  width: 33%;
+  height: 35vh;
+  padding: 1% 1%;
 }
