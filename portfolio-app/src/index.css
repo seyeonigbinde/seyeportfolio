@@ -27,7 +27,7 @@ background: #0e101c;
   margin: 0 auto;
 }
 h1{
-  font-size: 2.8rem;
+  font-size: 2.4rem;
 }
 h2{
   font-size: 2.0rem;
@@ -76,6 +76,10 @@ nav a:hover{
 }
 .logo{
   width: 50%;
+  text-align: left;
+  padding: 1% 4%;
+  font-weight: bold;
+  color: #fff;
 }
 .introduction{
   display: flex;
@@ -86,8 +90,8 @@ nav a:hover{
   width:50%;
   color: #cf0;
   padding-top: 10%;
-  text-align: left;
-  margin-left: 2%;
+  text-align: center;
+  margin-left: 3%;
 }
 .intro_text h1{
   padding: 1%;
@@ -99,7 +103,15 @@ nav a:hover{
 }
 .intro_text p{
   padding: 2%;
-
+}
+.intro_img{
+  width: 50%;
+  height: 45vh;
+}
+.intro_img img{
+  width: 100%;
+  height: 105vh;
+  border-radius: 5px;
 }
 #about{
   width: 100%;
@@ -124,6 +136,7 @@ nav a:hover{
   display: relative;
   animation-duration: 3s;  
   animation-fill-mode: forwards;
+  margin: 5% 0;
 }
 
 @keyframes skills {
@@ -133,6 +146,7 @@ nav a:hover{
 #skills h2{
   font-weight: bold;
   color: #cf0;
+  padding: 2% 0;
 }
 .skills_container{
   display: flex;
@@ -140,19 +154,19 @@ nav a:hover{
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  margin: 3% 3% 7% 3%;
+  margin: 3%;
 }
 .skills_container img{
   width: 55%;
   height: 17vh;
   padding: 1% 1%;
-  margin: 1%;
+  /* margin: 1%; */
+  margin: 15% 0%;
 }
 .tooltip{
   position: relative;
   display: inline-block;
   width: 20%;
-
 }
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -176,6 +190,7 @@ nav a:hover{
 #portfolio{
   width: 90%;
   margin: 3% 5%;
+  padding: 2% 0;
 }
 #portfolio h2{
   padding: 3%;
@@ -190,6 +205,7 @@ nav a:hover{
 }
 .container {
   position: relative;
+  padding: 2% 0;
 }
 .container img{
   opacity: 1;
@@ -199,6 +215,7 @@ nav a:hover{
   transition: .5s ease;
   backface-visibility: hidden;
   margin: 2% 0;
+  padding: 2% 0;
 }
 .middle {
   transition: .5s ease;
@@ -288,9 +305,49 @@ footer p{
   color: #fff;
   text-decoration: none;
 }
+.footer_img{
+  width: 40%;
+  padding: 2%;
+}
+.footer_img img{
+border-radius: 5px;
+}
 
 @media screen and (max-width: 700px) {
-
-
+  header{
+    display: inline;
+    left: 1%;
+  }
+  .logo{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+  }
+  .intro_img{
+    display: none;
+  }
+  .intro_text{
+    margin-top: 30%;
+    width: 95%;
+  }
+  .about_left{
+    width: 95%;
+  }
+  .about_right{
+    display: none;
+  }
+  .skills_container img{
+    width: 100%;
+  }
+  .tooltip{
+    width: 45%;
+  }
+  .contact_text{
+    width: 95%;
+  }
+  .footer_img{
+    display: none;
+  }
 
 }

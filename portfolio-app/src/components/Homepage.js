@@ -1,6 +1,8 @@
 import React from 'react'
 
-import html from '../images/html.png'
+import intro_img from '../images/intro_img.jpeg'
+
+import html2 from '../images/html2.png'
 import css3 from '../images/css3.jpeg'
 import javascript1 from '../images/javascript1.png'
 import bootstrap from '../images/bootstrap.png'
@@ -16,6 +18,8 @@ import easybank from '../images/easybank.png'
 import ariya from '../images/ariya.png'
 import todoapp from '../images/todoapp.png'
 
+import footer_img from '../images/footer_img.jpeg'
+
 const Homepage = () => {
 
 
@@ -23,7 +27,7 @@ const Homepage = () => {
         <section>
             <header>
                 <div className="logo">
-                    Logo
+                    <h2> Stevens Design</h2>
                 </div>
                 <nav>
                     <a href="#about" alt=""> Profile</a>
@@ -35,25 +39,26 @@ const Homepage = () => {
             </header>
             <section className="introduction">
                 <div className="intro_text">
-                    <h5>Hi I'm Seye Onigbinde</h5>
+                    <h5>Hi, I'm Seye Onigbinde,</h5>
                     <h1>I CODE FOR THE WEB. </h1>
                     <p> I'm a Full-Stack Web Developer who builds creative and efficient web applications</p>
                 </div>
-                <div>
-
+                <div className="intro_img">
+                    <img src={intro_img} alt=""/>
                 </div>
             </section>
             <section id="about">
                 <div className="about_left">
+                <h2>About Me</h2>
                     <h5>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
                 </h5>
                 </div>
                 <div className="about_right">
-                    <h2>About Me</h2>
+                    {/* <h2>About Me</h2>
                     <h5>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
-                </h5>
+                </h5> */}
                 </div>
             </section>
             <section id="offer">
@@ -63,7 +68,7 @@ const Homepage = () => {
                 <h2>Tech I Use</h2>
                 <section className="skills_container">
                     <div className="tooltip">
-                        <img src={html} alt="" />
+                        <img src={html2} alt="" />
                         <p className="tooltiptext"> HTML</p>
                     </div>
                     <div className="tooltip">
@@ -193,8 +198,8 @@ const Homepage = () => {
                             <button>Submit</button>
                         </form>
                     </div>
-                    <div className="container">
-                        <img src={ariya} alt="" />
+                    <div className="footer_img">
+                        <img src={footer_img} alt="contact_image" />
                     </div>
                 </section>
             </section>
