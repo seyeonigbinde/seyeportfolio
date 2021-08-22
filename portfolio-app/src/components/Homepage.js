@@ -1,8 +1,8 @@
 import React from 'react'
 
 import html from '../images/html.png'
-import css from '../images/css.png'
-import javascript from '../images/javascript.png'
+import css3 from '../images/css3.jpeg'
+import javascript1 from '../images/javascript1.png'
 import bootstrap from '../images/bootstrap.png'
 import react from '../images/react.png'
 import redux2 from '../images/redux2.png'
@@ -41,16 +41,44 @@ const Homepage = () => {
             <section id="offer">
 
             </section>
+            <h3>Tech I Use</h3>
             <section id="skills">
+                <div className="tooltip">
                 <img src={html} alt="" />
-                <img src={css} alt="" />
-                <img src={javascript} alt="" />
-                <img src={bootstrap} alt="" />
+                <p className="tooltiptext"> HTML</p>
+                </div>
+                <div className="tooltip">
+                <img src={css3} alt="" />
+                <p className="tooltiptext"> CSS</p>
+                </div>                
+                <div className="tooltip">
+                <img src={javascript1} alt="" />
+                <p className="tooltiptext"> JavaScript</p>
+                </div>
+                <div className="tooltip">
                 <img src={react} alt="" />
+                <p className="tooltiptext"> React</p>
+                </div>
+                <div className="tooltip">
+                <img src={bootstrap} alt="" />
+                <p className="tooltiptext"> Bootstrap</p>
+                </div>
+                <div className="tooltip">
                 <img src={redux2} alt="" />
+                <p className="tooltiptext"> Redux</p>
+                </div>
+                <div className="tooltip">
                 <img src={node} alt="" />
+                <p className="tooltiptext"> Nodejs</p>
+                </div>
+                <div className="tooltip">
                 <img src={postgresql} alt="" />
+                <p className="tooltiptext"> PostgreSQL</p>
+                </div>                
+                <div className="tooltip">
                 <img src={express} alt="" />
+                <p className="tooltiptext"> Expressjs</p>
+                </div>
             </section>
             <h3>My Portfolios</h3>
             <section id="portfolio">
@@ -110,7 +138,16 @@ const Homepage = () => {
                 </div>
             </section>
             <section id="contact">
+                <div>
+                    <h3>Get in Touch</h3>
+                    <p>send me a message at seyeonigbinde@gmail.com or fill the form bellow:</p>
+                    <form>
+                        
+                    </form>
+                </div>
+                <div>
 
+                </div>
             </section>
             <footer>
 

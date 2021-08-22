@@ -22,7 +22,7 @@ color: #4f4f4f;
 *{
   box-sizing: border-box; 
    max-width:100%; 
-   /* border: 1px solid red;  */
+   border: 1px solid red; 
   margin: 0 auto;
 }
 h1{
@@ -58,16 +58,41 @@ header{
 #skills{
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
-  width: 75%;
-  margin: 7% 10%;
+  width: 90%;
+  margin: 7% 3%;
 }
 #skills img{
-  width: 17%;
-  height: 20vh;
+  width: 55%;
+  height: 17vh;
   padding: 1% 1%;
   margin: 1%;
+}
+.tooltip{
+  position: relative;
+  display: inline-block;
+  width: 20%;
+
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 25%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 #portfolio{
   display: flex;
@@ -87,6 +112,7 @@ header{
   height: 32vh;
   transition: .5s ease;
   backface-visibility: hidden;
+  margin: 2% 0;
 }
 .middle {
   transition: .5s ease;
@@ -110,6 +136,7 @@ header{
   font-size: 16px;
   padding: 10px 15px;
 }
+
 button{
   border: none;
   background-color: black;
