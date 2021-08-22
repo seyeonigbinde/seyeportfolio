@@ -22,7 +22,7 @@ color: #4f4f4f;
 *{
   box-sizing: border-box; 
    max-width:100%; 
-   border: 1px solid red; 
+   /* border: 1px solid red;  */
   margin: 0 auto;
 }
 h1{
@@ -48,7 +48,49 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #eee;
+  background-color: #000;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 40%;
+  padding: 1%;
+}
+nav a{
+  text-decoration: none;
+  padding: 0 2%;
+  width: 50%;
+  color: #fff;
+  display: block;
+}
+.logo{
+  width: 60%;
+}
+.introduction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro_text{
+  width:50%;
+}
+.intro_text h1{
+  padding: 5%;
+  font-weight: bold;
+}
+.intro_text h5{
+  padding: 5%;
+  text-align: left;
+}
+.intro_text p{
+  padding: 5%;
+  text-align: left;
 }
 #about{
   width: 50%;
@@ -56,14 +98,24 @@ header{
   margin: 2% 40%;
 }
 #skills{
+  display: relative;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes skills {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+.skills_container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  margin: 7% 3%;
+  margin: 3% 3% 7% 3%;
 }
-#skills img{
+.skills_container img{
   width: 55%;
   height: 17vh;
   padding: 1% 1%;
@@ -136,7 +188,11 @@ header{
   font-size: 16px;
   padding: 10px 15px;
 }
-
+.text a{
+  text-decoration: none;
+  align-items: center;
+  color:#095580;
+}
 button{
   border: none;
   background-color: black;

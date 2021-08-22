@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 import html from '../images/html.png'
 import css3 from '../images/css3.jpeg'
@@ -23,16 +22,27 @@ const Homepage = () => {
     return (
         <section>
             <header>
-                <div>
+                <div className="logo">
                     Logo
                 </div>
-                <div>
+                <nav>
                     <a href="#about" alt=""> Profile</a>
                     <a href="#skills" alt=""> Skills</a>
                     <a href="#portfolio" alt=""> Projects</a>
                     <a href="#contact" alt=""> Contact</a>
-                </div>
+                    <a href="https://docs.google.com/document/d/1dF4Tr9AeX-J-smiCSztGF8n7i6Sh5N40ZeIKpW0eonM/edit?usp=sharing"> <button> Resume</button></a>
+                </nav>
             </header>
+            <section className="introduction">
+                <div className="intro_text">
+                    <h5>Hi I'm Seye Onigbinde</h5>
+                    <h1>I CODE THINGS FOR THE WEB. </h1>
+                    <p> I'm a Full-Stack Web Developer who builds creative and efficient web applications</p>
+                </div>
+                <div>
+
+                </div>
+            </section>
             <section id="about">
                 <h2>About Me</h2>
                 <h5>
@@ -42,8 +52,9 @@ const Homepage = () => {
             <section id="offer">
 
             </section>
+            <section  id="skills"> 
             <h3>Tech I Use</h3>
-            <section id="skills">
+            <section class="skills_container">
                 <div className="tooltip">
                     <img src={html} alt="" />
                     <p className="tooltiptext"> HTML</p>
@@ -81,6 +92,7 @@ const Homepage = () => {
                     <p className="tooltiptext"> Expressjs</p>
                 </div>
             </section>
+            </section>
             <h3>My Portfolios</h3>
             <section id="portfolio">
                 <div className="container">
@@ -89,7 +101,11 @@ const Homepage = () => {
                         <div className="text">
                             <p>ALTREST is a tenant management platform </p>
                             <p> React || Nodejs || Express || Bootstrap</p>
-                            <button>View</button></div>
+                            <div>
+                            <a href="https://altrest-tenant-management-app.vercel.app/"><button>View</button></a>
+                            <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2"> <i class="fab fa-github fa-2x"></i> </a>
+                            </div>
+                            </div>
                     </div>
                 </div>
                 <div className="container">
@@ -98,7 +114,11 @@ const Homepage = () => {
                         <div className="text">
                             <p>ARIYA is an online marketplace, specifically designed for the event industry </p>
                             <p> React || Nodejs || Express</p>
-                            <button>View</button></div>
+                            <div>
+                            <a href="#1"><button>View</button></a>
+                            <a href="https://github.com/seyeonigbinde/ariya"> <i class="fab fa-github fa-2x"></i> </a>
+                            </div>
+                            </div>
                     </div>
                 </div>
                 <div className="container">
@@ -107,7 +127,11 @@ const Homepage = () => {
                         <div className="text">
                             <p>EasyBank is Frontend Mentor Challenge </p>
                             <p> HTML 5 ||CSS 3</p>
-                            <button>View</button></div>
+                            <div>
+                            <a href="#1"><button>View</button></a>
+                            <a href="https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge"> <i class="fab fa-github fa-2x"></i> </a>
+                            </div>
+                            </div>
                     </div>
                 </div>
                 <div className="container">
@@ -116,7 +140,11 @@ const Homepage = () => {
                         <div className="text">
                             <p>Todo App for activity management </p>
                             <p> React || Nodejs || Express</p>
-                            <button>View</button></div>
+                            <div>
+                            <a href="https://my-todolist-apps.herokuapp.com/"><button>View</button></a>
+                            <a href="https://github.com/seyeonigbinde/TodoList"> <i class="fab fa-github fa-2x"></i> </a>
+                            </div>
+                            </div>
                     </div>
                 </div>
                 <div className="container">
@@ -125,7 +153,11 @@ const Homepage = () => {
                         <div className="text">
                             <p>ALTREST is a tenant management platform </p>
                             <p> React || CSS 3 || Bootstrap</p>
-                            <button>View</button></div>
+                            <div>
+                            <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
+                            <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1"> <i class="fab fa-github fa-2x"></i> </a>
+                            </div>
+                            </div>
                     </div>
                 </div>
                 <div className="container">
@@ -134,7 +166,11 @@ const Homepage = () => {
                         <div className="text">
                             <p>EasyBank is Frontend Mentor Challenge </p>
                             <p> HTML 5 ||CSS 3</p>
-                            <button>View</button></div>
+                            <div>
+                            <a href="#1"><button>View</button></a>
+                            <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github fa-2x"></i> </a>
+                            </div>
+                            </div>
                     </div>
                 </div>
             </section>
@@ -155,10 +191,10 @@ const Homepage = () => {
             </section>
             <footer>
                 <div className="footer_socials">
-                <Link to="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter"></i> </Link> 
-                <Link to="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin"></i>  </Link>
-                <Link to="https://github.com/seyeonigbinde"> <i class="fab fa-github"></i> </Link>
-                <Link to="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square"></i></Link>
+                <a href="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter"></i> </a> 
+                <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin"></i>  </a>
+                <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github"></i> </a>
+                <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square"></i></a>
 
                 </div>
                 <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
