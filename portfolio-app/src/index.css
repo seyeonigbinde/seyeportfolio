@@ -113,17 +113,32 @@ nav a:hover{
   height: 105vh;
   border-radius: 5px;
 }
+.intro_socials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 2% 29%;
+}
+.intro_socials a{
+  color: #fff;
+  text-decoration: none;
+}
+.intro_socials a:hover{
+  color: #cf0;
+}
 #about{
   width: 100%;
   padding: 2%;
-  margin: 2% 0%;
+  margin: 1% 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 #about h2{
   font-weight: bold;
-  padding: 3%;
+  padding: 2% 3%;
   color: #cf0;
 }
 .about_left, 
@@ -304,6 +319,9 @@ footer p{
 .footer_socials a{
   color: #fff;
   text-decoration: none;
+}
+.footer_socials a:hover{
+  color: #cf0;
 }
 .footer_img{
   width: 40%;

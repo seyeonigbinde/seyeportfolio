@@ -18,7 +18,7 @@ import easybank from '../images/easybank.png'
 import ariya from '../images/ariya.png'
 import todoapp from '../images/todoapp.png'
 
-import footer_img from '../images/footer_img.jpeg'
+import footer_img2 from '../images/footer_img2.jpeg'
 
 const Homepage = () => {
 
@@ -42,6 +42,12 @@ const Homepage = () => {
                     <h5>Hi, I'm Seye Onigbinde,</h5>
                     <h1>I CODE FOR THE WEB. </h1>
                     <p> I'm a Full-Stack Web Developer who builds creative and efficient web applications</p>
+                    <div className="intro_socials">
+                    <a href="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter fa-2x"></i> </a>
+                    <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin fa-2x"></i>  </a>
+                    <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github fa-2x"></i> </a>
+                    <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                </div>
                 </div>
                 <div className="intro_img">
                     <img src={intro_img} alt=""/>
@@ -65,42 +71,42 @@ const Homepage = () => {
 
             </section>
             <section id="skills">
-                <h2>Tech I Use</h2>
+                <h2>My Skill Sets</h2>
                 <section className="skills_container">
                     <div className="tooltip">
-                        <img src={html2} alt="" />
+                        <img src={html2} alt="HTML" />
                         <p className="tooltiptext"> HTML</p>
                     </div>
                     <div className="tooltip">
-                        <img src={css3} alt="" />
+                        <img src={css3} alt="CSS" />
                         <p className="tooltiptext"> CSS</p>
                     </div>
                     <div className="tooltip">
-                        <img src={javascript1} alt="" />
+                        <img src={javascript1} alt="JavaScript" />
                         <p className="tooltiptext"> JavaScript</p>
                     </div>
                     <div className="tooltip">
-                        <img src={react} alt="" />
+                        <img src={react} alt="React" />
                         <p className="tooltiptext"> React</p>
                     </div>
                     <div className="tooltip">
-                        <img src={bootstrap} alt="" />
+                        <img src={bootstrap} alt="Bootstrap" />
                         <p className="tooltiptext"> Bootstrap</p>
                     </div>
                     <div className="tooltip">
-                        <img src={redux2} alt="" />
+                        <img src={redux2} alt="Redux" />
                         <p className="tooltiptext"> Redux</p>
                     </div>
                     <div className="tooltip">
-                        <img src={node} alt="" />
+                        <img src={node} alt="Nodejs" />
                         <p className="tooltiptext"> Nodejs</p>
                     </div>
                     <div className="tooltip">
-                        <img src={postgresql} alt="" />
+                        <img src={postgresql} alt="PostgreSQL" />
                         <p className="tooltiptext"> PostgreSQL</p>
                     </div>
                     <div className="tooltip">
-                        <img src={express} alt="" />
+                        <img src={express} alt="Expressjs" />
                         <p className="tooltiptext"> Expressjs</p>
                     </div>
                 </section>
@@ -109,7 +115,7 @@ const Homepage = () => {
                 <h2>My Portfolios</h2>
                 <section className="portfolio_container">
                     <div className="container">
-                        <img src={altrest_app} alt="" />
+                        <img src={altrest_app} alt="Altrest" />
                         <div className="middle">
                             <div className="text">
                                 <p>ALTREST is a tenant management platform </p>
@@ -122,7 +128,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={ariya} alt="" />
+                        <img src={ariya} alt="Ariya" />
                         <div className="middle">
                             <div className="text">
                                 <p>ARIYA is an online marketplace, specifically designed for the event industry </p>
@@ -135,7 +141,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={easybank} alt="" />
+                        <img src={easybank} alt="EasyBank" />
                         <div className="middle">
                             <div className="text">
                                 <p>EasyBank is Frontend Mentor Challenge </p>
@@ -148,7 +154,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={todoapp} alt="" />
+                        <img src={todoapp} alt="Todo App" />
                         <div className="middle">
                             <div className="text">
                                 <p>Todo App for activity management </p>
@@ -161,7 +167,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={altrest_web} alt="" />
+                        <img src={altrest_web} alt="Altrest" />
                         <div className="middle">
                             <div className="text">
                                 <p>ALTREST is a tenant management platform </p>
@@ -199,7 +205,7 @@ const Homepage = () => {
                         </form>
                     </div>
                     <div className="footer_img">
-                        <img src={footer_img} alt="contact_image" />
+                        <img src={footer_img2} alt="contact_image" />
                     </div>
                 </section>
             </section>
@@ -210,7 +216,6 @@ const Homepage = () => {
                     <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin"></i>  </a>
                     <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github"></i> </a>
                     <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square"></i></a>
-
                 </div>
                 <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
             </footer>
