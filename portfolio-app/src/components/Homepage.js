@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import html from '../images/html.png'
 import css3 from '../images/css3.jpeg'
@@ -44,40 +45,40 @@ const Homepage = () => {
             <h3>Tech I Use</h3>
             <section id="skills">
                 <div className="tooltip">
-                <img src={html} alt="" />
-                <p className="tooltiptext"> HTML</p>
+                    <img src={html} alt="" />
+                    <p className="tooltiptext"> HTML</p>
                 </div>
                 <div className="tooltip">
-                <img src={css3} alt="" />
-                <p className="tooltiptext"> CSS</p>
-                </div>                
-                <div className="tooltip">
-                <img src={javascript1} alt="" />
-                <p className="tooltiptext"> JavaScript</p>
+                    <img src={css3} alt="" />
+                    <p className="tooltiptext"> CSS</p>
                 </div>
                 <div className="tooltip">
-                <img src={react} alt="" />
-                <p className="tooltiptext"> React</p>
+                    <img src={javascript1} alt="" />
+                    <p className="tooltiptext"> JavaScript</p>
                 </div>
                 <div className="tooltip">
-                <img src={bootstrap} alt="" />
-                <p className="tooltiptext"> Bootstrap</p>
+                    <img src={react} alt="" />
+                    <p className="tooltiptext"> React</p>
                 </div>
                 <div className="tooltip">
-                <img src={redux2} alt="" />
-                <p className="tooltiptext"> Redux</p>
+                    <img src={bootstrap} alt="" />
+                    <p className="tooltiptext"> Bootstrap</p>
                 </div>
                 <div className="tooltip">
-                <img src={node} alt="" />
-                <p className="tooltiptext"> Nodejs</p>
+                    <img src={redux2} alt="" />
+                    <p className="tooltiptext"> Redux</p>
                 </div>
                 <div className="tooltip">
-                <img src={postgresql} alt="" />
-                <p className="tooltiptext"> PostgreSQL</p>
-                </div>                
+                    <img src={node} alt="" />
+                    <p className="tooltiptext"> Nodejs</p>
+                </div>
                 <div className="tooltip">
-                <img src={express} alt="" />
-                <p className="tooltiptext"> Expressjs</p>
+                    <img src={postgresql} alt="" />
+                    <p className="tooltiptext"> PostgreSQL</p>
+                </div>
+                <div className="tooltip">
+                    <img src={express} alt="" />
+                    <p className="tooltiptext"> Expressjs</p>
                 </div>
             </section>
             <h3>My Portfolios</h3>
@@ -138,19 +139,29 @@ const Homepage = () => {
                 </div>
             </section>
             <section id="contact">
-                <div>
+                <div className="contact_text">
                     <h3>Get in Touch</h3>
-                    <p>send me a message at seyeonigbinde@gmail.com or fill the form bellow:</p>
+                    <p>Send me a message at <a href="#1" alt=""> seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
                     <form>
-                        
+                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Email" />
+                        <input type="text" placeholder="Message" />
+                        <button>Submit</button>
                     </form>
                 </div>
-                <div>
-
+                <div className="container">
+                    <img src={ariya} alt="" />
                 </div>
             </section>
             <footer>
+                <div className="footer_socials">
+                <Link to="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter"></i> </Link> 
+                <Link to="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin"></i>  </Link>
+                <Link to="https://github.com/seyeonigbinde"> <i class="fab fa-github"></i> </Link>
+                <Link to="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square"></i></Link>
 
+                </div>
+                <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
             </footer>
         </section>
     )

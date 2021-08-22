@@ -38,7 +38,7 @@ h4{
   font-size: 1.2rem;
 }
 p{
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -144,4 +144,42 @@ button{
   padding: 8px 15px;
   margin-top: 16px;
   cursor: pointer;
+}
+#contact{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1%;
+}
+.contact_text{
+  width: 40%;
+  padding: 1%;
+}
+.contact_text h3{
+  padding:2%;
+  text-align: left;
+}
+.contact_text p{
+  padding:2%;
+  text-align: left;
+}
+input{
+width: 100%;
+padding: 2%;
+margin: 1%;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+footer{
+  background-color: #095580;
+  color: #fff;
+  margin-top: 4%;
+  text-align: center;
+  padding: 1% 0;
+}
+.footer_socials a{
+  color: #fff;
+  text-decoration: none;
 }
