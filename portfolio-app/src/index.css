@@ -17,7 +17,8 @@ body {
 background-color: #fff;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 line-height: 1.5;
-color: #4f4f4f;
+color: #fff;
+background: #0e101c;
 }
 *{
   box-sizing: border-box; 
@@ -48,9 +49,9 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #000;
+  background-color: #0e101c;
+  color: #cf0;
   overflow: hidden;
-  background-color: #333;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -66,11 +67,15 @@ nav a{
   text-decoration: none;
   padding: 0 2%;
   width: 50%;
-  color: #fff;
-  display: block;
+  color: #cf0;
+}
+nav a:hover{
+  background-color: #cf0;
+  color: #0e101c;
+  padding: 0.7% 0;
 }
 .logo{
-  width: 60%;
+  width: 50%;
 }
 .introduction{
   display: flex;
@@ -79,23 +84,41 @@ nav a{
 }
 .intro_text{
   width:50%;
+  color: #cf0;
+  padding-top: 10%;
+  text-align: left;
+  margin-left: 2%;
 }
 .intro_text h1{
-  padding: 5%;
+  padding: 1%;
   font-weight: bold;
 }
 .intro_text h5{
-  padding: 5%;
-  text-align: left;
+  padding: 2%;
+
 }
 .intro_text p{
-  padding: 5%;
-  text-align: left;
+  padding: 2%;
+
 }
 #about{
+  width: 100%;
+  padding: 2%;
+  margin: 2% 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#about h2{
+  font-weight: bold;
+  padding: 3%;
+  color: #cf0;
+}
+.about_left, 
+.about_right{
   width: 50%;
   padding: 2%;
-  margin: 2% 40%;
+  margin: 2% 0%;
 }
 #skills{
   display: relative;
@@ -106,6 +129,10 @@ nav a{
 @keyframes skills {
   from {top: 0px;}
   to {top: 200px;}
+}
+#skills h2{
+  font-weight: bold;
+  color: #cf0;
 }
 .skills_container{
   display: flex;
@@ -130,8 +157,8 @@ nav a{
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 50%;
-  background-color: black;
-  color: #fff;
+  background-color: #cf0;
+  color: #0e101c;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -147,12 +174,19 @@ nav a{
   visibility: visible;
 }
 #portfolio{
+  width: 90%;
+  margin: 3% 5%;
+}
+#portfolio h2{
+  padding: 3%;
+  font-weight: bold;
+  color: #cf0;
+}
+.portfolio_container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 90%;
-  margin: 3% 5%;
 }
 .container {
   position: relative;
@@ -184,20 +218,20 @@ nav a{
   opacity: 1;
 }
 .text {
-  color: #4f4f4f;
+  color: #cf0;
   font-size: 16px;
   padding: 10px 15px;
 }
 .text a{
   text-decoration: none;
   align-items: center;
-  color:#095580;
+  color:#cf0;
 }
 button{
   border: none;
-  background-color: black;
-  color: white;
-  padding: 8px 15px;
+  background-color: #cf0;
+  color: #0e101c;
+  padding: 8px 18px;
   margin-top: 16px;
   cursor: pointer;
 }
@@ -206,36 +240,57 @@ button{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1%;
+  padding: 2% 0;
+}
+#contact a{
+ color: #cf0;
 }
 .contact_text{
   width: 40%;
   padding: 1%;
 }
-.contact_text h3{
-  padding:2%;
+.contact_text h2{
+  padding:5% 0;
   text-align: left;
+  color: #cf0;
 }
 .contact_text p{
-  padding:2%;
+  padding:5% 1%;
   text-align: left;
 }
 input{
 width: 100%;
-padding: 2%;
+padding: 3%;
 margin: 1%;
 border-top: none;
 border-left: none;
 border-right: none;
 }
+hr{
+  border-color: #cf0;
+  width: 80%;
+
+}
 footer{
-  background-color: #095580;
-  color: #fff;
+  background-color: #0e101c;
+  color: #cf0;
   margin-top: 4%;
   text-align: center;
+  padding: 1% 0;
+}
+footer p{
+  padding: 1% 0;
+}
+.footer_socials{
   padding: 1% 0;
 }
 .footer_socials a{
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+
+
 }
