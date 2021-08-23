@@ -30,14 +30,14 @@ const Homepage = () => {
                     <h2> Stevens Design</h2>
                 </div>
                 <nav>
-                    <a href="#about" alt=""> Profile</a>
+                    <a href="#introduction" alt=""> Profile</a>
                     <a href="#skills" alt=""> Skills</a>
                     <a href="#portfolio" alt=""> Projects</a>
                     <a href="#contact" alt=""> Contact</a>
                     <button onClick="https://docs.google.com/document/d/1dF4Tr9AeX-J-smiCSztGF8n7i6Sh5N40ZeIKpW0eonM/edit?usp=sharing"> Resume</button>
                 </nav>
             </header>
-            <section className="introduction">
+            <section id="introduction">
                 <div className="intro_text">
                     <h5>Hi, I'm Seye Onigbinde,</h5>
                     <h1>I CODE FOR THE WEB. </h1>
@@ -49,7 +49,7 @@ const Homepage = () => {
                     <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
                 </div>
                 </div>
-                <div className="intro_img">
+                <div className="intro_img"  data-aos="fade-up-left" data-aos-duration="3000">
                     <img src={intro_img} alt=""/>
                 </div>
             </section>
@@ -70,7 +70,7 @@ const Homepage = () => {
             <section id="offer">
 
             </section>
-            <section id="skills">
+            <section id="skills"  data-aos="zoom-in-down" data-aos-duration="3000">
                 <h2>My Skill Sets</h2>
                 <section className="skills_container">
                     <div className="tooltip">
@@ -111,7 +111,7 @@ const Homepage = () => {
                     </div>
                 </section>
             </section>
-            <section id="portfolio">
+            <section id="portfolio"  data-aos="fade-up-right" data-aos-duration="3000">
                 <h2>My Portfolios</h2>
                 <section className="portfolio_container">
                     <div className="container">
@@ -194,7 +194,7 @@ const Homepage = () => {
                     </div>
                 </section>
                 <section id="contact">
-                    <div className="contact_text">
+                    <div className="contact_text"  data-aos="fade-up-left" data-aos-duration="3000">
                         <h2>Get in Touch</h2>
                         <p>Send me a message at <a href="#1" alt=""> seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
                         <form>
@@ -204,7 +204,7 @@ const Homepage = () => {
                             <button>Submit</button>
                         </form>
                     </div>
-                    <div className="footer_img">
+                    <div className="footer_img" data-aos="fade-up" data-aos-duration="3000">
                         <img src={footer_img2} alt="contact_image" />
                     </div>
                 </section>

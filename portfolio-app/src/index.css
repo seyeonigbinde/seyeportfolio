@@ -81,7 +81,7 @@ nav a:hover{
   font-weight: bold;
   color: #fff;
 }
-.introduction{
+#introduction{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,12 +151,13 @@ nav a:hover{
   display: relative;
   animation-duration: 3s;  
   animation-fill-mode: forwards;
+  animation-name: skill;
   margin: 5% 0;
 }
 
-@keyframes skills {
+@keyframes skill {
   from {top: 0px;}
-  to {top: 200px;}
+  to {top: 700px;}
 }
 #skills h2{
   font-weight: bold;
