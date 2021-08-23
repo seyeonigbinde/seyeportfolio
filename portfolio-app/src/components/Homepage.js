@@ -17,6 +17,7 @@ import altrest_web from '../images/altrest_web.png'
 import easybank from '../images/easybank.png'
 import ariya from '../images/ariya.png'
 import todoapp from '../images/todoapp.png'
+import calculator from '../images/calculator.png'
 
 import footer_img2 from '../images/footer_img2.jpeg'
 
@@ -171,7 +172,7 @@ const Homepage = () => {
                         <div className="middle">
                             <div className="text">
                                 <p>ALTREST is a tenant management platform </p>
-                                <p> React || CSS 3 || Bootstrap</p>
+                                <p> React || CSS 3 || BootStrap</p>
                                 <div>
                                     <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
                                     <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1"> <i class="fab fa-github fa-2x"></i> </a>
@@ -180,14 +181,14 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={easybank} alt="" />
+                        <img src={calculator} alt="" />
                         <div className="middle">
                             <div className="text">
-                                <p>EasyBank is Frontend Mentor Challenge </p>
-                                <p> HTML 5 ||CSS 3</p>
+                                <p>A Simple React Calculator Using Reducer Patterns</p>
+                                <p> React || BootStrap </p>
                                 <div>
                                     <a href="#1"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Calculator-App"> <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
