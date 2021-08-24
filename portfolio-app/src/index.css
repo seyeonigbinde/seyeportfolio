@@ -149,15 +149,7 @@ nav a:hover{
 }
 #skills{
   display: relative;
-  animation-duration: 3s;  
-  animation-fill-mode: forwards;
-  animation-name: skill;
   margin: 5% 0;
-}
-
-@keyframes skill {
-  from {top: 0px;}
-  to {top: 700px;}
 }
 #skills h2{
   font-weight: bold;
@@ -176,7 +168,6 @@ nav a:hover{
   width: 55%;
   height: 17vh;
   padding: 1% 1%;
-  /* margin: 1%; */
   margin: 15% 0%;
 }
 .tooltip{

@@ -215,10 +215,10 @@ const Homepage = () => {
             <footer>
                 <hr />
                 <div className="footer_socials">
-                    <a href="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter"></i> </a>
-                    <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin"></i>  </a>
-                    <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github"></i> </a>
-                    <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                    <a href="https://twitter.com/SStephen_Coding"> <i className="fab fa-twitter"></i> </a>
+                    <a href="https://www.linkedin.com/in/onigbindeseye/"><i className="fab fa-linkedin"></i>  </a>
+                    <a href="https://github.com/seyeonigbinde"> <i className="fab fa-github"></i> </a>
+                    <a href="mailto:seyeonigbinde@gmail.com"><i className="fas fa-envelope-square"></i></a>
                 </div>
                 <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
             </footer>
