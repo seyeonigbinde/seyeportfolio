@@ -57,9 +57,9 @@ const Homepage = () => {
             <section id="about">
                 <div className="about_left">
                     <h2>About Me</h2>
-                    <h5>
+                    <p>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
-                </h5>
+                </p>
                 </div>
                 <div className="about_right">
                 </div>

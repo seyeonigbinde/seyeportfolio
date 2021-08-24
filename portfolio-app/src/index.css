@@ -88,7 +88,6 @@ nav a:hover{
 }
 .intro_text{
   width:50%;
-  color: #cf0;
   padding-top: 10%;
   text-align: center;
   margin-left: 3%;
@@ -96,6 +95,7 @@ nav a:hover{
 .intro_text h1{
   padding: 1%;
   font-weight: bold;
+  color: #cf0;
 }
 .intro_text h5{
   padding: 2%;
@@ -324,6 +324,12 @@ border-radius: 5px;
 }
 
 @media screen and (max-width: 700px) {
+  h1{
+    font-size: 2.2rem;
+  }
+  h2{
+    font-size: 1.8rem;
+  }
   header{
     display: inline;
     left: 1%;
@@ -334,12 +340,19 @@ border-radius: 5px;
   nav{
     width: 100%;
   }
+  nav a{
+    font-size: 0.8rem;
+    width: 30%;
+  }
   .intro_img{
     display: none;
   }
   .intro_text{
     margin-top: 30%;
     width: 95%;
+  }
+  .intro_socials{
+    width: 50%;
   }
   .about_left{
     width: 95%;
@@ -357,7 +370,7 @@ border-radius: 5px;
     width: 95%;
   }
   .footer_img{
-    display: none;
+    width: 100%;
   }
 
 }
