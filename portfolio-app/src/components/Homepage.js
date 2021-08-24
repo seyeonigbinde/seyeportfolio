@@ -131,7 +131,7 @@ const Homepage = () => {
                                 <p>ARIYA is an online marketplace, specifically designed for the event industry </p>
                                 <p> React || CSS 3 || Nodejs || Express</p>
                                 <div>
-                                    <a href="#1"><button>View</button></a>
+                                    <a href="https://ariya.vercel.app/"><button>View</button></a>
                                     <a href="https://github.com/seyeonigbinde/ariya">
                                         <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
