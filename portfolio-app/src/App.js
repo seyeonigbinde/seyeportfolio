@@ -1,6 +1,6 @@
-import './App.css';
+import './App.css'
 import {Switch, Route} from 'react-router-dom'
-import Homepage from './components/Homepage';
+import Homepage from './components/Homepage'
 
 function App() {
   return (
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

@@ -44,34 +44,29 @@ const Homepage = () => {
                     <h1>I CODE FOR THE WEB. </h1>
                     <p> I'm a Full-Stack Web Developer who builds creative and efficient web applications</p>
                     <div className="intro_socials">
-                    <a href="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter fa-2x"></i> </a>
-                    <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin fa-2x"></i>  </a>
-                    <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github fa-2x"></i> </a>
-                    <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                        <a href="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter fa-2x"></i> </a>
+                        <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin fa-2x"></i>  </a>
+                        <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github fa-2x"></i> </a>
+                        <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                    </div>
                 </div>
-                </div>
-                <div className="intro_img"  data-aos="fade-up-left" data-aos-duration="3000">
-                    <img src={intro_img} alt=""/>
+                <div className="intro_img" data-aos="fade-up-left" data-aos-duration="3000">
+                    <img src={intro_img} alt="" />
                 </div>
             </section>
             <section id="about">
                 <div className="about_left">
-                <h2>About Me</h2>
+                    <h2>About Me</h2>
                     <h5>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
                 </h5>
                 </div>
                 <div className="about_right">
-                    {/* <h2>About Me</h2>
-                    <h5>
-                        I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
-                </h5> */}
                 </div>
             </section>
             <section id="offer">
-
             </section>
-            <section id="skills"  data-aos="zoom-in-down" data-aos-duration="3000">
+            <section id="skills" data-aos="zoom-in-down" data-aos-duration="3000">
                 <h2>My Skill Sets</h2>
                 <section className="skills_container">
                     <div className="tooltip">
@@ -112,7 +107,7 @@ const Homepage = () => {
                     </div>
                 </section>
             </section>
-            <section id="portfolio"  data-aos="fade-up-right" data-aos-duration="3000">
+            <section id="portfolio" data-aos="fade-up-right" data-aos-duration="3000">
                 <h2>My Portfolios</h2>
                 <section className="portfolio_container">
                     <div className="container">
@@ -123,8 +118,8 @@ const Homepage = () => {
                                 <p> React || CSS 3 || Nodejs || Express || Bootstrap</p>
                                 <div>
                                     <a href="https://altrest-tenant-management-app.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2"> 
-                                    <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2">
+                                        <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -137,8 +132,8 @@ const Homepage = () => {
                                 <p> React || CSS 3 || Nodejs || Express</p>
                                 <div>
                                     <a href="#1"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/ariya"> 
-                                    <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/ariya">
+                                        <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -151,8 +146,8 @@ const Homepage = () => {
                                 <p> HTML 5 || CSS 3</p>
                                 <div>
                                     <a href="https://easybank-landing-page-lyart-alpha.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge"> 
-                                    <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge">
+                                        <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -165,8 +160,8 @@ const Homepage = () => {
                                 <p> React || CSS 3 || Nodejs || Express</p>
                                 <div>
                                     <a href="https://my-todolist-apps.herokuapp.com/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/TodoList"> 
-                                    <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/TodoList">
+                                        <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -179,8 +174,8 @@ const Homepage = () => {
                                 <p> React || CSS 3 || BootStrap</p>
                                 <div>
                                     <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1"> 
-                                    <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1">
+                                        <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -193,23 +188,23 @@ const Homepage = () => {
                                 <p> React || BootStrap </p>
                                 <div>
                                     <a href="https://calculator-app-psi.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Calculator-App"> 
-                                    <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Calculator-App">
+                                        <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section id="contact">
-                    <div className="contact_text"  data-aos="fade-up-left" data-aos-duration="3000">
+                    <div className="contact_text" data-aos="fade-up-left" data-aos-duration="3000">
                         <h2>Get in Touch</h2>
                         <p>Send me a message at <a href="mailto:seyeonigbinde@gmail.com" alt="">
-                             seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
+                            seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
                         <form action="mailto:seyeonigbinde@gmail.com">
                             <input className="input_area" type="text" placeholder="Name" />
                             <input className="input_area" type="text" placeholder="Email" />
                             <input className="input_area" type="text" placeholder="Message" />
-                            <input className="submitButton" type="submit"/>
+                            <input className="submitButton" type="submit" />
                         </form>
                     </div>
                     <div className="footer_img" data-aos="fade-up" data-aos-duration="3000">
