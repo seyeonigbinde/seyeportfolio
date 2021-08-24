@@ -120,10 +120,11 @@ const Homepage = () => {
                         <div className="middle">
                             <div className="text">
                                 <p>ALTREST is a tenant management platform </p>
-                                <p> React || Nodejs || Express || Bootstrap</p>
+                                <p> React || CSS 3 || Nodejs || Express || Bootstrap</p>
                                 <div>
                                     <a href="https://altrest-tenant-management-app.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2"> 
+                                    <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -133,10 +134,11 @@ const Homepage = () => {
                         <div className="middle">
                             <div className="text">
                                 <p>ARIYA is an online marketplace, specifically designed for the event industry </p>
-                                <p> React || Nodejs || Express</p>
+                                <p> React || CSS 3 || Nodejs || Express</p>
                                 <div>
                                     <a href="#1"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/ariya"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/ariya"> 
+                                    <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -146,10 +148,11 @@ const Homepage = () => {
                         <div className="middle">
                             <div className="text">
                                 <p>EasyBank is Frontend Mentor Challenge </p>
-                                <p> HTML 5 ||CSS 3</p>
+                                <p> HTML 5 || CSS 3</p>
                                 <div>
-                                    <a href="#1"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://easybank-landing-page-lyart-alpha.vercel.app/"><button>View</button></a>
+                                    <a href="https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge"> 
+                                    <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -159,10 +162,11 @@ const Homepage = () => {
                         <div className="middle">
                             <div className="text">
                                 <p>Todo App for activity management </p>
-                                <p> React || Nodejs || Express</p>
+                                <p> React || CSS 3 || Nodejs || Express</p>
                                 <div>
                                     <a href="https://my-todolist-apps.herokuapp.com/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/TodoList"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/TodoList"> 
+                                    <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +179,8 @@ const Homepage = () => {
                                 <p> React || CSS 3 || BootStrap</p>
                                 <div>
                                     <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1"> 
+                                    <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -184,11 +189,12 @@ const Homepage = () => {
                         <img src={calculator} alt="" />
                         <div className="middle">
                             <div className="text">
-                                <p>A Simple React Calculator Using Reducer Patterns</p>
+                                <p>A Simple React Single-Digit Calculator Created Using Reducer Patterns</p>
                                 <p> React || BootStrap </p>
                                 <div>
-                                    <a href="#1"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Calculator-App"> <i class="fab fa-github fa-2x"></i> </a>
+                                    <a href="https://calculator-app-psi.vercel.app/"><button>View</button></a>
+                                    <a href="https://github.com/seyeonigbinde/Calculator-App"> 
+                                    <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -197,12 +203,13 @@ const Homepage = () => {
                 <section id="contact">
                     <div className="contact_text"  data-aos="fade-up-left" data-aos-duration="3000">
                         <h2>Get in Touch</h2>
-                        <p>Send me a message at <a href="#1" alt=""> seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
-                        <form>
-                            <input type="text" placeholder="Name" />
-                            <input type="text" placeholder="Email" />
-                            <input type="text" placeholder="Message" />
-                            <button>Submit</button>
+                        <p>Send me a message at <a href="mailto:seyeonigbinde@gmail.com" alt="">
+                             seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
+                        <form action="mailto:seyeonigbinde@gmail.com">
+                            <input className="input_area" type="text" placeholder="Name" />
+                            <input className="input_area" type="text" placeholder="Email" />
+                            <input className="input_area" type="text" placeholder="Message" />
+                            <input className="submitButton" type="submit"/>
                         </form>
                     </div>
                     <div className="footer_img" data-aos="fade-up" data-aos-duration="3000">
