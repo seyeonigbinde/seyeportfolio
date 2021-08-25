@@ -142,7 +142,7 @@ const Homepage = () => {
                         <img src={easybank} alt="EasyBank" />
                         <div className="middle">
                             <div className="text">
-                                <p>EasyBank is Frontend Mentor Challenge </p>
+                                <p>EasyBank is a Frontend Mentor Challenge </p>
                                 <p> HTML 5 || CSS 3</p>
                                 <div>
                                     <a href="https://easybank-landing-page-lyart-alpha.vercel.app/"><button>View</button></a>
