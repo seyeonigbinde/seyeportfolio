@@ -56,7 +56,7 @@ const Homepage = () => {
             </section>
             <section id="about">
                 <div className="about_left">
-                    <h2>About Me</h2>
+                    <h2>About Me</h2><hr/>
                     <p>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
                 </p>
@@ -64,10 +64,10 @@ const Homepage = () => {
                 <div className="about_right">
                 </div>
             </section>
-            <section id="offer">
-            </section>
+            {/* <section id="offer">
+            </section> */}
             <section id="skills" data-aos="zoom-in-down" data-aos-duration="3000">
-                <h2>My Skill Sets</h2>
+                <h2>My Skill Sets</h2><hr/>
                 <section className="skills_container">
                     <div className="tooltip">
                         <img src={html2} alt="HTML" />
@@ -108,7 +108,7 @@ const Homepage = () => {
                 </section>
             </section>
             <section id="portfolio" data-aos="fade-up-right" data-aos-duration="3000">
-                <h2>My Portfolios</h2>
+                <h2>My Portfolios</h2><hr/>
                 <section className="portfolio_container">
                     <div className="container">
                         <img src={altrest_app} alt="Altrest" />
@@ -196,7 +196,7 @@ const Homepage = () => {
                     </div>
                 </section>
                 <section id="contact">
-                    <div className="contact_text" data-aos="fade-up-left" data-aos-duration="3000">
+                    <div className="contact_text" data-aos="fade-down" data-aos-duration="3000">
                         <h2>Get in Touch</h2>
                         <p>Send me a message at <a href="mailto:seyeonigbinde@gmail.com" alt="">
                             seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
