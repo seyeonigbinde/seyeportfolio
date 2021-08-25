@@ -31,14 +31,14 @@ const Homepage = () => {
                     <h2> Stevens Design</h2>
                 </div>
                 <nav>
-                    <a href="#introduction" alt=""> Profile</a>
+                    <a href="#profile" alt=""> Profile</a>
                     <a href="#skills" alt=""> Skills</a>
                     <a href="#portfolio" alt=""> Projects</a>
                     <a href="#contact" alt=""> Contact</a>
-                    <button onClick="https://docs.google.com/document/d/1dF4Tr9AeX-J-smiCSztGF8n7i6Sh5N40ZeIKpW0eonM/edit?usp=sharing"> Resume</button>
+                    <a href="https://docs.google.com/document/d/1dF4Tr9AeX-J-smiCSztGF8n7i6Sh5N40ZeIKpW0eonM/edit?usp=sharing" alt=""><button> Resume</button></a>
                 </nav>
             </header>
-            <section id="introduction">
+            <section id="profile">
                 <div className="intro_text">
                     <h5>Hi, I'm Seye Onigbinde,</h5>
                     <h1>I CODE FOR THE WEB. </h1>
