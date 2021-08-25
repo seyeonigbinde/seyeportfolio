@@ -199,7 +199,7 @@ const Homepage = () => {
                     <div className="contact_text" data-aos="fade-down" data-aos-duration="3000">
                         <h2>Get in Touch</h2>
                         <p>Send me a message at <a href="mailto:seyeonigbinde@gmail.com" alt="">
-                            seyeonigbinde@gmail.com </a>or fill the form bellow:</p>
+                            seyeonigbinde@gmail.com </a>or fill the form below:</p>
                         <form action="mailto:seyeonigbinde@gmail.com">
                             <input className="input_area" type="text" placeholder="Name" />
                             <input className="input_area" type="text" placeholder="Email" />
