@@ -35,7 +35,7 @@ const Homepage = () => {
                     <a href="#skills" alt=""> Skills</a>
                     <a href="#portfolio" alt=""> Projects</a>
                     <a href="#contact" alt=""> Contact</a>
-                    <a href="https://docs.google.com/document/d/1dF4Tr9AeX-J-smiCSztGF8n7i6Sh5N40ZeIKpW0eonM/edit?usp=sharing" alt=""><button> Resume</button></a>
+                    <a href="https://drive.google.com/file/d/13ALMid63SgxQXlSufka4k0A0T8XXSYhv/view?usp=sharing" alt=""><button> Resume</button></a>
                 </nav>
             </header>
             <section id="profile">
