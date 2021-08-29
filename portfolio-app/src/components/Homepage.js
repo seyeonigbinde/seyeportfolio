@@ -16,7 +16,7 @@ import altrest_app from '../images/altrest_app.png'
 import altrest_web from '../images/altrest_web.png'
 import easybank from '../images/easybank.png'
 import ariya from '../images/ariya.png'
-import todoapp from '../images/todoapp.png'
+import todoapp2 from '../images/todoapp2.png'
 import calculator from '../images/calculator.png'
 
 import footer_img2 from '../images/footer_img2.jpeg'
@@ -153,7 +153,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={todoapp} alt="Todo App" />
+                        <img src={todoapp2} alt="Todo App" />
                         <div className="middle">
                             <div className="text">
                                 <p>Todo App for activity management </p>
