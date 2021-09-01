@@ -125,6 +125,34 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
+                        <img src={todoapp2} alt="Todo App" />
+                        <div className="middle">
+                            <div className="text">
+                                <p>Todo App for activity management </p>
+                                <p> React || CSS 3 || Nodejs || Express</p>
+                                <div>
+                                    <a href="https://my-todolist-apps.herokuapp.com/"><button>View</button></a>
+                                    <a href="https://github.com/seyeonigbinde/TodoList">
+                                        <i class="fab fa-github fa-2x"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <img src={calculator} alt="" />
+                        <div className="middle">
+                            <div className="text">
+                                <p>A Simple React Single-Digit Calculator Created Using Reducer Patterns</p>
+                                <p> React || BootStrap </p>
+                                <div>
+                                    <a href="https://calculator-app-psi.vercel.app/"><button>View</button></a>
+                                    <a href="https://github.com/seyeonigbinde/Calculator-App">
+                                        <i class="fab fa-github fa-2x"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container">
                         <img src={ariya} alt="Ariya" />
                         <div className="middle">
                             <div className="text">
@@ -153,20 +181,6 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={todoapp2} alt="Todo App" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>Todo App for activity management </p>
-                                <p> React || CSS 3 || Nodejs || Express</p>
-                                <div>
-                                    <a href="https://my-todolist-apps.herokuapp.com/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/TodoList">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
                         <img src={altrest_web} alt="Altrest" />
                         <div className="middle">
                             <div className="text">
@@ -175,20 +189,6 @@ const Homepage = () => {
                                 <div>
                                     <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
                                     <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={calculator} alt="" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>A Simple React Single-Digit Calculator Created Using Reducer Patterns</p>
-                                <p> React || BootStrap </p>
-                                <div>
-                                    <a href="https://calculator-app-psi.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Calculator-App">
                                         <i class="fab fa-github fa-2x"></i> </a>
                                 </div>
                             </div>
