@@ -18,6 +18,8 @@ import easybank from '../images/easybank.png'
 import ariya from '../images/ariya.png'
 import todoapp2 from '../images/todoapp2.png'
 import calculator from '../images/calculator.png'
+import imani from '../images/imani.png'
+import oluseun from '../images/oluseun.png'
 
 import footer_img2 from '../images/footer_img2.jpeg'
 
@@ -156,7 +158,7 @@ const Homepage = () => {
                         <img src={ariya} alt="Ariya" />
                         <div className="middle">
                             <div className="text">
-                                <p>ARIYA is an online marketplace, specifically designed for the event industry </p>
+                                <p>ARIYA is an online marketplace, specifically designed for the event industry (Frontend) </p>
                                 <p> React || CSS 3 || Nodejs || Express</p>
                                 <div>
                                     <a href="https://ariya.vercel.app/"><button>View</button></a>
@@ -170,7 +172,7 @@ const Homepage = () => {
                         <img src={easybank} alt="EasyBank" />
                         <div className="middle">
                             <div className="text">
-                                <p>EasyBank is a Frontend Mentor Challenge </p>
+                                <p>EasyBank is a Frontend Mentor Challenge (Frontend) </p>
                                 <p> HTML 5 || CSS 3</p>
                                 <div>
                                     <a href="https://easybank-landing-page-lyart-alpha.vercel.app/"><button>View</button></a>
@@ -181,10 +183,38 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="container">
+                        <img src={imani} alt="Imani-Faith" />
+                        <div className="middle">
+                            <div className="text">
+                                <p>The portfolio app for Imani-Faith </p>
+                                <p> HTML 5 || CSS 3</p>
+                                <div>
+                                    <a href="https://imani-portfolio.vercel.app/"><button>View</button></a>
+                                    <a href="https://github.com/imani-portfolio/imani-portfolio">
+                                        <i class="fab fa-github fa-2x"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <img src={oluseun} alt="Oluseun Onigbinde" />
+                        <div className="middle">
+                            <div className="text">
+                                <p>The personal website of Oluseun Onigbinde </p>
+                                <p> HTML 5 || CSS 3</p>
+                                <div>
+                                    <a href="https://oluseunonigbinde.vercel.app/"><button>View</button></a>
+                                    <a href="https://github.com/seyeonigbinde/oluseun-onigbinde">
+                                        <i class="fab fa-github fa-2x"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container">
                         <img src={altrest_web} alt="Altrest" />
                         <div className="middle">
                             <div className="text">
-                                <p>ALTREST is a tenant management platform </p>
+                                <p>ALTREST is a tenant management platform (Frontend) </p>
                                 <p> React || CSS 3 || BootStrap</p>
                                 <div>
                                     <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
