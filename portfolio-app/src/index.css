@@ -56,33 +56,67 @@ header{
   top: 0;
   z-index: 1;
 }
-nav{
+.desktop_nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: 40%;
+  width: 80%;
   padding: 1%;
 }
-nav a{
+.desktop_nav a{
   text-decoration: none;
   padding: 0 2%;
-  width: 50%;
+  width: 35%;
   color: #cf0;
 }
-nav a:hover{
-  background-color: #cf0;
-  color: #0e101c;
+.desktop_nav a:hover{
+  border: 2px solid #cf0;
+  color: #cf0;
   padding: 0.7% 0;
+  border-radius: 5px;
 }
+.responsive_nav{
+  display: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0e101c;
+  min-width: 9rem;
+  box-shadow: 0px 8px 16px 
+    0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 7%;
+}
+.dropdown-content a {
+  color: #cf0;
+  font-size: 0.8rem;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid #ddd;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover 
+.dropdown-content {
+  display: block;
+}
+
 .logo{
-  width: 50%;
+  width: 70%;
   text-align: left;
   font-weight: bold;
   color: #fff;
   padding: 0.4% 1%;
 }
 .logo h2{
-  width: 43%;
+  width: 53%;
   border: 2px dotted #cf0;
   padding: 1% 2%;
 }
@@ -358,20 +392,21 @@ border-radius: 5px;
     font-size: 1.8rem;
   }
   header{
-    flex-direction: column;
     width: 97%;
   }
   .logo{
-    width: 90%;
+    width: 80%;
   }
   .logo h2{
     width: 90%;
   }
-  nav{
-    width: 100%;
+  .responsive_nav{
+    display: inline;
+    padding: 2% 1%;
+    overflow: visible;
   }
-  nav a{
-    font-size: 0.8rem;
+  .desktop_nav{
+    display: none;
   }
   .intro_img{
     display: none;

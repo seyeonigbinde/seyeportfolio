@@ -32,7 +32,19 @@ const Homepage = () => {
                 <div className="logo">
                     <h2> Stevens Design</h2>
                 </div>
-                <nav>
+                <nav className="responsive_nav">
+                    <div className="dropdown">
+                        <i className="fas fa-bars fa-2x"></i>
+                        <div className="dropdown-content">
+                            <a href="#profile" alt=""> Profile</a>
+                            <a href="#skills" alt=""> Skills</a>
+                            <a href="#portfolio" alt=""> Projects</a>
+                            <a href="#contact" alt=""> Contact</a>
+                            <a href="https://drive.google.com/file/d/13ALMid63SgxQXlSufka4k0A0T8XXSYhv/view?usp=sharing" alt=""><button> Resume</button></a>
+                        </div>
+                    </div>
+                </nav>
+                <nav className="desktop_nav">
                     <a href="#profile" alt=""> Profile</a>
                     <a href="#skills" alt=""> Skills</a>
                     <a href="#portfolio" alt=""> Projects</a>
@@ -58,7 +70,7 @@ const Homepage = () => {
             </section>
             <section id="about">
                 <div className="about_left">
-                    <h2>About Me</h2><hr/>
+                    <h2>About Me</h2><hr />
                     <p>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
                 </p>
@@ -69,7 +81,7 @@ const Homepage = () => {
             {/* <section id="offer">
             </section> */}
             <section id="skills" data-aos="zoom-in-down" data-aos-duration="3000">
-                <h2>My Skill Sets</h2><hr/>
+                <h2>My Skill Sets</h2><hr />
                 <section className="skills_container">
                     <div className="tooltip">
                         <img src={html2} alt="HTML" />
@@ -110,7 +122,7 @@ const Homepage = () => {
                 </section>
             </section>
             <section id="portfolio" data-aos="fade-up-right" data-aos-duration="3000">
-                <h2>My Portfolios</h2><hr/>
+                <h2>My Portfolios</h2><hr />
                 <section className="portfolio_container">
                     <div className="container">
                         <img src={altrest_app} alt="Altrest" />
