@@ -22,36 +22,14 @@ import imani from '../images/imani.png'
 import oluseun from '../images/oluseun.png'
 
 import footer_img2 from '../images/footer_img2.jpeg'
+import Header from './Header'
 
 const Homepage = () => {
 
 
     return (
         <section>
-            <header>
-                <div className="logo">
-                    <h2> Stevens Design</h2>
-                </div>
-                <nav className="responsive_nav">
-                    <div className="dropdown">
-                        <i className="fas fa-bars fa-2x"></i>
-                        <div className="dropdown-content">
-                            <a href="#profile" alt=""> Profile</a>
-                            <a href="#skills" alt=""> Skills</a>
-                            <a href="#portfolio" alt=""> Projects</a>
-                            <a href="#contact" alt=""> Contact</a>
-                            <a href="https://drive.google.com/file/d/13ALMid63SgxQXlSufka4k0A0T8XXSYhv/view?usp=sharing" alt=""><button> Resume</button></a>
-                        </div>
-                    </div>
-                </nav>
-                <nav className="desktop_nav">
-                    <a href="#profile" alt=""> Profile</a>
-                    <a href="#skills" alt=""> Skills</a>
-                    <a href="#portfolio" alt=""> Projects</a>
-                    <a href="#contact" alt=""> Contact</a>
-                    <a href="https://drive.google.com/file/d/13ALMid63SgxQXlSufka4k0A0T8XXSYhv/view?usp=sharing" alt=""><button> Resume</button></a>
-                </nav>
-            </header>
+            <Header />
             <section id="profile">
                 <div className="intro_text">
                     <h5>Hi, I'm Seye Onigbinde,</h5>
@@ -74,6 +52,10 @@ const Homepage = () => {
                     <p>
                         I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
                 </p>
+                    <div className="about_learn">
+                        <p>🌱 I’m currently learning TailWindCSS, MongoDB and Next.js.<br />
+                👯 I’m looking to collaborate on Web Development projects.</p>
+                    </div>
                 </div>
                 <div className="about_right">
                 </div>

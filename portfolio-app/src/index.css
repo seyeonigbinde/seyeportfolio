@@ -193,6 +193,13 @@ header{
 }
 .about_left p{
   padding: 5% 0%;
+  text-align: left;
+  line-height: 2;
+}
+.about_learn{
+  border: 2px solid #cf0;
+  border-radius: 10px;
+  padding: 1% 2%;
 }
 #skills{
   display: relative;
@@ -412,11 +419,12 @@ border-radius: 5px;
     display: none;
   }
   .intro_text{
-    margin-top: 30%;
+    margin-top: 25%;
     width: 95%;
   }
   .intro_socials{
-    width: 50%;
+    width: 70%;
+    margin: 8% 14%;
   }
   #about hr{
     width: 32%;
@@ -451,8 +459,13 @@ border-radius: 5px;
   .contact_text{
     width: 95%;
   }
+  .footer_socials{
+    padding: 3% 0;
+  }
   .footer_img{
     width: 100%;
   }
-
+  footer p{
+    font-size: 0.6rem;
+  }
 }
