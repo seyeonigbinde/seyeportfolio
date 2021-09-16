@@ -32,7 +32,7 @@ const Homepage = () => {
             <Header />
             <section id="profile">
                 <div className="intro_text">
-                    <h5>Hi, I'm Seye Onigbinde,</h5>
+                    <h4>Hi, I'm Seye Onigbinde,</h4>
                     <h1>I CODE FOR THE WEB. </h1>
                     <p> I'm a Full-Stack Web Developer who builds creative and efficient web applications</p>
                     <div className="intro_socials">

@@ -55,6 +55,7 @@ header{
   position: fixed;
   top: 0;
   z-index: 1;
+  padding-bottom: 2%;
 }
 .desktop_nav{
   display: flex;
@@ -98,10 +99,10 @@ header{
   padding: 6px 6px;
   text-decoration: none;
   display: block;
-  border: 2px solid #ddd;
 }
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #cf0;
+  color: #0e101c;
 }
 .dropdown:hover 
 .dropdown-content {
@@ -127,7 +128,7 @@ header{
 }
 .intro_text{
   width:50%;
-  padding-top: 10%;
+  padding-top: 8%;
   text-align: center;
   margin-left: 3%;
 }
@@ -170,7 +171,6 @@ header{
 #about{
   width: 100%;
   padding: 2%;
-  margin: 1% 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -192,7 +192,7 @@ header{
   margin: 1% 0%;
 }
 .about_left p{
-  padding: 5% 0%;
+  padding: 4% 0%;
   text-align: left;
   line-height: 2;
 }
@@ -400,6 +400,8 @@ border-radius: 5px;
   }
   header{
     width: 97%;
+    overflow: visible;
+    padding-bottom: 3%;
   }
   .logo{
     width: 80%;
@@ -410,7 +412,6 @@ border-radius: 5px;
   .responsive_nav{
     display: inline;
     padding: 2% 1%;
-    overflow: visible;
   }
   .desktop_nav{
     display: none;
