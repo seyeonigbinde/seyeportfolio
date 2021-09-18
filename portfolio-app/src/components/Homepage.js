@@ -33,7 +33,7 @@ const Homepage = () => {
           <h4>Hi, I'm Seye Onigbinde,</h4>
           <h1>I CODE FOR THE WEB. </h1>
           <p>
-            I'm a Full-Stack Web Developer who builds creative and efficient web
+            I'm a Web Developer who builds creative and efficient web
             applications
           </p>
           <div className='intro_socials'>
@@ -76,7 +76,7 @@ const Homepage = () => {
           </p>
           <div className='about_learn'>
             <p>
-              🌱 I’m currently learning TailWindCSS, MongoDB and Next.js.
+              🌱 I’m currently learning TailWindCSS and Next.js.
               <br />
               👯 I’m looking to collaborate on Web Development projects.
             </p>
@@ -153,7 +153,7 @@ const Homepage = () => {
             <img src={todoapp2} alt='Todo App' />
             <div className='middle'>
               <div className='text'>
-                <p>Todo App for activity management </p>
+                <p>A CRUD Todo App for activity management </p>
                 <p> React || CSS 3 || Nodejs || Express</p>
                 <div>
                   <a href='https://my-todolist-apps.herokuapp.com/'>
@@ -192,7 +192,7 @@ const Homepage = () => {
               <div className='text'>
                 <p>
                   ARIYA is an online marketplace, specifically designed for the
-                  event industry (Frontend){' '}
+                  event industry (Frontend Only)
                 </p>
                 <p> React || CSS 3 || Nodejs || Express</p>
                 <div>
@@ -210,7 +210,7 @@ const Homepage = () => {
             <img src={easybank} alt='EasyBank' />
             <div className='middle'>
               <div className='text'>
-                <p>EasyBank is a Frontend Mentor Challenge (Frontend) </p>
+                <p>EasyBank is a Frontend Mentor Challenge (Frontend Only) </p>
                 <p> HTML 5 || CSS 3</p>
                 <div>
                   <a href='https://easybank-landing-page-lyart-alpha.vercel.app/'>
@@ -261,7 +261,7 @@ const Homepage = () => {
             <img src={altrest_web} alt='Altrest' />
             <div className='middle'>
               <div className='text'>
-                <p>ALTREST is a tenant management platform (Frontend) </p>
+                <p>ALTREST is a tenant management platform (Frontend Only) </p>
                 <p> React || CSS 3 || BootStrap</p>
                 <div>
                   <a href='https://altrest-seyeonigbinde.vercel.app/'>
@@ -323,7 +323,7 @@ const Homepage = () => {
             <i className='fas fa-envelope-square'></i>
           </a>
         </div>
-        <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
+        <p>Copyright &copy; 2021 || Designed by Seye Onigbinde</p>
       </footer>
     </section>
   )
