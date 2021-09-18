@@ -25,229 +25,308 @@ import footer_img2 from '../images/footer_img2.jpeg'
 import Header from './Header'
 
 const Homepage = () => {
-
-
-    return (
-        <section>
-            <Header />
-            <section id="profile">
-                <div className="intro_text">
-                    <h4>Hi, I'm Seye Onigbinde,</h4>
-                    <h1>I CODE FOR THE WEB. </h1>
-                    <p> I'm a Full-Stack Web Developer who builds creative and efficient web applications</p>
-                    <div className="intro_socials">
-                        <a href="https://twitter.com/SStephen_Coding"> <i class="fab fa-twitter fa-2x"></i> </a>
-                        <a href="https://www.linkedin.com/in/onigbindeseye/"><i class="fab fa-linkedin fa-2x"></i>  </a>
-                        <a href="https://github.com/seyeonigbinde"> <i class="fab fa-github fa-2x"></i> </a>
-                        <a href="mailto:seyeonigbinde@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-                    </div>
-                </div>
-                <div className="intro_img" data-aos="fade-up-left" data-aos-duration="3000">
-                    <img src={intro_img} alt="" />
-                </div>
-            </section>
-            <section id="about">
-                <div className="about_left">
-                    <h2>About Me</h2><hr />
-                    <p>
-                        I am a Web Developer trained at Lambda School with years of experience in Finance, Accounting, Financial Modelling, Financial Reporting and Treasury Management. My passion to create, innovate and solve problems made me developed interest in Web Development. Before joining Lambda School, I have worked in the financial services industry as a Financial Controller where I and my team managed the financials and cashflows of the bank efficiently and profitably.
-                </p>
-                    <div className="about_learn">
-                        <p>🌱 I’m currently learning TailWindCSS, MongoDB and Next.js.<br />
-                👯 I’m looking to collaborate on Web Development projects.</p>
-                    </div>
-                </div>
-                <div className="about_right">
-                </div>
-            </section>
-            {/* <section id="offer">
+  return (
+    <section>
+      <Header />
+      <section id='profile'>
+        <div className='intro_text'>
+          <h4>Hi, I'm Seye Onigbinde,</h4>
+          <h1>I CODE FOR THE WEB. </h1>
+          <p>
+            I'm a Full-Stack Web Developer who builds creative and efficient web
+            applications
+          </p>
+          <div className='intro_socials'>
+            <a href='https://twitter.com/SeyeOni_Codes'>
+              <i class='fab fa-twitter fa-2x'></i>
+            </a>
+            <a href='https://www.linkedin.com/in/onigbindeseye/'>
+              <i class='fab fa-linkedin fa-2x'></i>{' '}
+            </a>
+            <a href='https://github.com/seyeonigbinde'>
+              {' '}
+              <i class='fab fa-github fa-2x'></i>{' '}
+            </a>
+            <a href='mailto:seyeonigbinde@gmail.com'>
+              <i class='fas fa-envelope-square fa-2x'></i>
+            </a>
+          </div>
+        </div>
+        <div
+          className='intro_img'
+          data-aos='fade-up-left'
+          data-aos-duration='3000'
+        >
+          <img src={intro_img} alt='' />
+        </div>
+      </section>
+      <section id='about'>
+        <div className='about_left'>
+          <h2>About Me</h2>
+          <hr />
+          <p>
+            I am a Web Developer trained at Lambda School with years of
+            experience in Finance, Accounting, Financial Modelling, Financial
+            Reporting and Treasury Management. My passion to create, innovate
+            and solve problems made me developed interest in Web Development.
+            Before joining Lambda School, I have worked in the financial
+            services industry as a Financial Controller where I and my team
+            managed the financials and cashflows of the bank efficiently and
+            profitably.
+          </p>
+          <div className='about_learn'>
+            <p>
+              🌱 I’m currently learning TailWindCSS, MongoDB and Next.js.
+              <br />
+              👯 I’m looking to collaborate on Web Development projects.
+            </p>
+          </div>
+        </div>
+        <div className='about_right'></div>
+      </section>
+      {/* <section id="offer">
             </section> */}
-            <section id="skills" data-aos="zoom-in-down" data-aos-duration="3000">
-                <h2>My Skill Sets</h2><hr />
-                <section className="skills_container">
-                    <div className="tooltip">
-                        <img src={html2} alt="HTML" />
-                        <p className="tooltiptext"> HTML</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={css3} alt="CSS" />
-                        <p className="tooltiptext"> CSS</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={javascript1} alt="JavaScript" />
-                        <p className="tooltiptext"> JavaScript</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={react} alt="React" />
-                        <p className="tooltiptext"> React</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={bootstrap} alt="Bootstrap" />
-                        <p className="tooltiptext"> Bootstrap</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={redux2} alt="Redux" />
-                        <p className="tooltiptext"> Redux</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={node} alt="Nodejs" />
-                        <p className="tooltiptext"> Nodejs</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={postgresql} alt="PostgreSQL" />
-                        <p className="tooltiptext"> PostgreSQL</p>
-                    </div>
-                    <div className="tooltip">
-                        <img src={express} alt="Expressjs" />
-                        <p className="tooltiptext"> Expressjs</p>
-                    </div>
-                </section>
-            </section>
-            <section id="portfolio" data-aos="fade-up-right" data-aos-duration="3000">
-                <h2>My Portfolios</h2><hr />
-                <section className="portfolio_container">
-                    <div className="container">
-                        <img src={altrest_app} alt="Altrest" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>ALTREST is a tenant management platform </p>
-                                <p> React || CSS 3 || Nodejs || Express || Bootstrap</p>
-                                <div>
-                                    <a href="https://altrest-tenant-management-app.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={todoapp2} alt="Todo App" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>Todo App for activity management </p>
-                                <p> React || CSS 3 || Nodejs || Express</p>
-                                <div>
-                                    <a href="https://my-todolist-apps.herokuapp.com/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/TodoList">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={calculator} alt="" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>A Simple React Single-Digit Calculator Created Using Reducer Patterns</p>
-                                <p> React || BootStrap </p>
-                                <div>
-                                    <a href="https://calculator-app-psi.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Calculator-App">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={ariya} alt="Ariya" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>ARIYA is an online marketplace, specifically designed for the event industry (Frontend) </p>
-                                <p> React || CSS 3 || Nodejs || Express</p>
-                                <div>
-                                    <a href="https://ariya.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/ariya">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={easybank} alt="EasyBank" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>EasyBank is a Frontend Mentor Challenge (Frontend) </p>
-                                <p> HTML 5 || CSS 3</p>
-                                <div>
-                                    <a href="https://easybank-landing-page-lyart-alpha.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={imani} alt="Imani-Faith" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>The portfolio app for Imani-Faith </p>
-                                <p> HTML 5 || CSS 3</p>
-                                <div>
-                                    <a href="https://imani-portfolio.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/imani-portfolio/imani-portfolio">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={oluseun} alt="Oluseun Onigbinde" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>The personal website of Oluseun Onigbinde </p>
-                                <p> HTML 5 || CSS 3</p>
-                                <div>
-                                    <a href="https://oluseunonigbinde.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/oluseun-onigbinde">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={altrest_web} alt="Altrest" />
-                        <div className="middle">
-                            <div className="text">
-                                <p>ALTREST is a tenant management platform (Frontend) </p>
-                                <p> React || CSS 3 || BootStrap</p>
-                                <div>
-                                    <a href="https://altrest-seyeonigbinde.vercel.app/"><button>View</button></a>
-                                    <a href="https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1">
-                                        <i class="fab fa-github fa-2x"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="contact">
-                    <div className="contact_text" data-aos="fade-down" data-aos-duration="3000">
-                        <h2>Get in Touch</h2>
-                        <p>Send me a message at <a href="mailto:seyeonigbinde@gmail.com" alt="">
-                            seyeonigbinde@gmail.com </a>or fill the form below:</p>
-                        <form action="mailto:seyeonigbinde@gmail.com">
-                            <input className="input_area" type="text" placeholder="Name" />
-                            <input className="input_area" type="text" placeholder="Email" />
-                            <input className="input_area" type="text" placeholder="Message" />
-                            <input className="submitButton" type="submit" />
-                        </form>
-                    </div>
-                    <div className="footer_img" data-aos="fade-up" data-aos-duration="3000">
-                        <img src={footer_img2} alt="contact_image" />
-                    </div>
-                </section>
-            </section>
-            <footer>
-                <hr />
-                <div className="footer_socials">
-                    <a href="https://twitter.com/SStephen_Coding"> <i className="fab fa-twitter"></i> </a>
-                    <a href="https://www.linkedin.com/in/onigbindeseye/"><i className="fab fa-linkedin"></i>  </a>
-                    <a href="https://github.com/seyeonigbinde"> <i className="fab fa-github"></i> </a>
-                    <a href="mailto:seyeonigbinde@gmail.com"><i className="fas fa-envelope-square"></i></a>
-                </div>
-                <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
-            </footer>
+      <section id='skills' data-aos='zoom-in-down' data-aos-duration='3000'>
+        <h2>My Skill Sets</h2>
+        <hr />
+        <section className='skills_container'>
+          <div className='tooltip'>
+            <img src={html2} alt='HTML' />
+            <p className='tooltiptext'> HTML</p>
+          </div>
+          <div className='tooltip'>
+            <img src={css3} alt='CSS' />
+            <p className='tooltiptext'> CSS</p>
+          </div>
+          <div className='tooltip'>
+            <img src={javascript1} alt='JavaScript' />
+            <p className='tooltiptext'> JavaScript</p>
+          </div>
+          <div className='tooltip'>
+            <img src={react} alt='React' />
+            <p className='tooltiptext'> React</p>
+          </div>
+          <div className='tooltip'>
+            <img src={bootstrap} alt='Bootstrap' />
+            <p className='tooltiptext'> Bootstrap</p>
+          </div>
+          <div className='tooltip'>
+            <img src={redux2} alt='Redux' />
+            <p className='tooltiptext'> Redux</p>
+          </div>
+          <div className='tooltip'>
+            <img src={node} alt='Nodejs' />
+            <p className='tooltiptext'> Nodejs</p>
+          </div>
+          <div className='tooltip'>
+            <img src={postgresql} alt='PostgreSQL' />
+            <p className='tooltiptext'> PostgreSQL</p>
+          </div>
+          <div className='tooltip'>
+            <img src={express} alt='Expressjs' />
+            <p className='tooltiptext'> Expressjs</p>
+          </div>
         </section>
-    )
+      </section>
+      <section id='portfolio' data-aos='fade-up-right' data-aos-duration='3000'>
+        <h2>My Portfolios</h2>
+        <hr />
+        <section className='portfolio_container'>
+          <div className='container'>
+            <img src={altrest_app} alt='Altrest' />
+            <div className='middle'>
+              <div className='text'>
+                <p>ALTREST is a tenant management platform </p>
+                <p> React || CSS 3 || Nodejs || Express || Bootstrap</p>
+                <div>
+                  <a href='https://altrest-tenant-management-app.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={todoapp2} alt='Todo App' />
+            <div className='middle'>
+              <div className='text'>
+                <p>Todo App for activity management </p>
+                <p> React || CSS 3 || Nodejs || Express</p>
+                <div>
+                  <a href='https://my-todolist-apps.herokuapp.com/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/TodoList'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={calculator} alt='' />
+            <div className='middle'>
+              <div className='text'>
+                <p>
+                  A Simple React Single-Digit Calculator Created Using Reducer
+                  Patterns
+                </p>
+                <p> React || BootStrap </p>
+                <div>
+                  <a href='https://calculator-app-psi.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/Calculator-App'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={ariya} alt='Ariya' />
+            <div className='middle'>
+              <div className='text'>
+                <p>
+                  ARIYA is an online marketplace, specifically designed for the
+                  event industry (Frontend){' '}
+                </p>
+                <p> React || CSS 3 || Nodejs || Express</p>
+                <div>
+                  <a href='https://ariya.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/ariya'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={easybank} alt='EasyBank' />
+            <div className='middle'>
+              <div className='text'>
+                <p>EasyBank is a Frontend Mentor Challenge (Frontend) </p>
+                <p> HTML 5 || CSS 3</p>
+                <div>
+                  <a href='https://easybank-landing-page-lyart-alpha.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={imani} alt='Imani-Faith' />
+            <div className='middle'>
+              <div className='text'>
+                <p>The portfolio app for Imani-Faith </p>
+                <p> HTML 5 || CSS 3</p>
+                <div>
+                  <a href='https://imani-portfolio.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/imani-portfolio/imani-portfolio'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={oluseun} alt='Oluseun Onigbinde' />
+            <div className='middle'>
+              <div className='text'>
+                <p>The personal website of Oluseun Onigbinde </p>
+                <p> HTML 5 || CSS 3</p>
+                <div>
+                  <a href='https://oluseunonigbinde.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/oluseun-onigbinde'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={altrest_web} alt='Altrest' />
+            <div className='middle'>
+              <div className='text'>
+                <p>ALTREST is a tenant management platform (Frontend) </p>
+                <p> React || CSS 3 || BootStrap</p>
+                <div>
+                  <a href='https://altrest-seyeonigbinde.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id='contact'>
+          <div
+            className='contact_text'
+            data-aos='fade-down'
+            data-aos-duration='3000'
+          >
+            <h2>Get in Touch</h2>
+            <p>
+              Send me a message at{' '}
+              <a href='mailto:seyeonigbinde@gmail.com' alt=''>
+                seyeonigbinde@gmail.com{' '}
+              </a>
+              or fill the form below:
+            </p>
+            <form action='mailto:seyeonigbinde@gmail.com'>
+              <input className='input_area' type='text' placeholder='Name' />
+              <input className='input_area' type='text' placeholder='Email' />
+              <input className='input_area' type='text' placeholder='Message' />
+              <input className='submitButton' type='submit' />
+            </form>
+          </div>
+          <div
+            className='footer_img'
+            data-aos='fade-up'
+            data-aos-duration='3000'
+          >
+            <img src={footer_img2} alt='contact_image' />
+          </div>
+        </section>
+      </section>
+      <footer>
+        <hr />
+        <div className='footer_socials'>
+          <a href='https://twitter.com/SeyeOni_Codes'>
+            {' '}
+            <i className='fab fa-twitter'></i>{' '}
+          </a>
+          <a href='https://www.linkedin.com/in/onigbindeseye/'>
+            <i className='fab fa-linkedin'></i>{' '}
+          </a>
+          <a href='https://github.com/seyeonigbinde'>
+            {' '}
+            <i className='fab fa-github'></i>{' '}
+          </a>
+          <a href='mailto:seyeonigbinde@gmail.com'>
+            <i className='fas fa-envelope-square'></i>
+          </a>
+        </div>
+        <p>Copyright &copy; 2021 || Designed by Stevens Design Tech.</p>
+      </footer>
+    </section>
+  )
 }
 
 export default Homepage
