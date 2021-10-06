@@ -20,6 +20,7 @@ import todoapp2 from '../images/todoapp2.png'
 import calculator from '../images/calculator.png'
 import imani from '../images/imani.png'
 import oluseun from '../images/oluseun.png'
+import vicky from '../images/vicky_stores.png'
 
 import footer_img2 from '../images/footer_img2.jpeg'
 import Header from './Header'
@@ -160,6 +161,23 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/TodoList'>
+                    <i class='fab fa-github fa-2x'></i>{' '}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={vicky} alt='' />
+            <div className='middle'>
+              <div className='text'>
+                <p>Vicky Stores is an online shopping app</p>
+                <p> React || CSS3 </p>
+                <div>
+                  <a href='https://vicky-stores.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/vicky-stores'>
                     <i class='fab fa-github fa-2x'></i>{' '}
                   </a>
                 </div>
