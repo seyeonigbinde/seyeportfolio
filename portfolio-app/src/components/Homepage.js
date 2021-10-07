@@ -172,7 +172,7 @@ const Homepage = () => {
             <div className='middle'>
               <div className='text'>
                 <p>Vicky Stores is an online shopping app</p>
-                <p> React || CSS3 </p>
+                <p> React || FakeStoreAPI || CSS3 </p>
                 <div>
                   <a href='https://vicky-stores.vercel.app/'>
                     <button>View</button>
