@@ -171,7 +171,7 @@ const Homepage = () => {
             <img src={vicky} alt='' />
             <div className='middle'>
               <div className='text'>
-                <p>Vicky Stores is an online shopping app</p>
+                <p>Vicky Stores is an e-commerce site using FakeStoreAPI</p>
                 <p> React || FakeStoreAPI || CSS3 </p>
                 <div>
                   <a href='https://vicky-stores.vercel.app/'>
