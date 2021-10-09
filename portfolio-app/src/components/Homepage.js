@@ -138,7 +138,10 @@ const Homepage = () => {
             <div className='middle'>
               <div className='text'>
                 <p>ALTREST is a tenant management platform </p>
-                <p> React || CSS 3 || Nodejs || Express || Bootstrap</p>
+                <p>
+                  {' '}
+                  React || JavaScript || Nodejs || Express || CSS3 || Bootstrap
+                </p>
                 <div>
                   <a href='https://altrest-tenant-management-app.vercel.app/'>
                     <button>View</button>
@@ -155,7 +158,7 @@ const Homepage = () => {
             <div className='middle'>
               <div className='text'>
                 <p>A CRUD Todo App for activity management </p>
-                <p> React || CSS 3 || Nodejs || Express</p>
+                <p> React || JavaScript || CSS 3 || Nodejs || Express</p>
                 <div>
                   <a href='https://my-todolist-apps.herokuapp.com/'>
                     <button>View</button>
@@ -172,7 +175,7 @@ const Homepage = () => {
             <div className='middle'>
               <div className='text'>
                 <p>Vicky Stores is an e-commerce site using FakeStoreAPI</p>
-                <p> React || FakeStoreAPI || CSS3 </p>
+                <p> React || JavaScript || FakeStoreAPI || CSS3 </p>
                 <div>
                   <a href='https://vicky-stores.vercel.app/'>
                     <button>View</button>
@@ -192,7 +195,7 @@ const Homepage = () => {
                   A Simple React Single-Digit Calculator Created Using Reducer
                   Patterns
                 </p>
-                <p> React || BootStrap </p>
+                <p> React || JavaScript || BootStrap </p>
                 <div>
                   <a href='https://calculator-app-psi.vercel.app/'>
                     <button>View</button>
