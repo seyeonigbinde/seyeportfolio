@@ -1,29 +1,32 @@
-import React from 'react'
+import React from "react"
 
-import intro_img from '../images/intro_img.jpeg'
+import intro_img from "../images/intro_img.jpeg"
 
-import html2 from '../images/html2.png'
-import css3 from '../images/css3.jpeg'
-import javascript1 from '../images/javascript1.png'
-import bootstrap from '../images/bootstrap.png'
-import react from '../images/react.png'
-import redux2 from '../images/redux2.png'
-import node from '../images/node.png'
-import postgresql from '../images/postgresql.png'
-import express from '../images/express.png'
+import html2 from "../images/html2.png"
+import css3 from "../images/css3.jpeg"
+import javascript1 from "../images/javascript1.png"
+import typescript from "../images/typescript.png"
+import bootstrap from "../images/bootstrap.png"
+import react from "../images/react.png"
+import redux2 from "../images/redux2.png"
+import node from "../images/node.png"
+import postgresql from "../images/postgresql.png"
+import express from "../images/express.png"
+import mongodb from "../images/mongodb.png"
+import material from "../images/material_ui.png"
 
-import altrest_app from '../images/altrest_app.png'
-import altrest_web from '../images/altrest_web.png'
-import easybank from '../images/easybank.png'
-import ariya from '../images/ariya.png'
-import todoapp2 from '../images/todoapp2.png'
-import calculator from '../images/calculator.png'
-import imani from '../images/imani.png'
-import oluseun from '../images/oluseun.png'
-import vicky from '../images/vicky_stores.png'
+import altrest_app from "../images/altrest_app.png"
+import altrest_web from "../images/altrest_web.png"
+import easybank from "../images/easybank.png"
+import ariya from "../images/ariya.png"
+import todoapp2 from "../images/todoapp2.png"
+import calculator from "../images/calculator.png"
+import imani from "../images/imani.png"
+import oluseun from "../images/oluseun.png"
+import vicky from "../images/vicky_stores.png"
 
-import footer_img2 from '../images/footer_img2.jpeg'
-import Header from './Header'
+import footer_img2 from "../images/footer_img2.jpeg"
+import Header from "./Header"
 
 const Homepage = () => {
   return (
@@ -42,11 +45,11 @@ const Homepage = () => {
               <i class='fab fa-twitter fa-2x'></i>
             </a>
             <a href='https://www.linkedin.com/in/onigbindeseye/'>
-              <i class='fab fa-linkedin fa-2x'></i>{' '}
+              <i class='fab fa-linkedin fa-2x'></i>{" "}
             </a>
             <a href='https://github.com/seyeonigbinde'>
-              {' '}
-              <i class='fab fa-github fa-2x'></i>{' '}
+              {" "}
+              <i class='fab fa-github fa-2x'></i>{" "}
             </a>
             <a href='mailto:seyeonigbinde@gmail.com'>
               <i class='fas fa-envelope-square fa-2x'></i>
@@ -104,12 +107,20 @@ const Homepage = () => {
             <p className='tooltiptext'> JavaScript</p>
           </div>
           <div className='tooltip'>
+            <img src={typescript} alt='TypeScript' />
+            <p className='tooltiptext'> TypeScript</p>
+          </div>
+          <div className='tooltip'>
             <img src={react} alt='React' />
             <p className='tooltiptext'> React</p>
           </div>
           <div className='tooltip'>
             <img src={bootstrap} alt='Bootstrap' />
             <p className='tooltiptext'> Bootstrap</p>
+          </div>
+          <div className='tooltip'>
+            <img src={material} alt='Material UI' />
+            <p className='tooltiptext'> Material UI</p>
           </div>
           <div className='tooltip'>
             <img src={redux2} alt='Redux' />
@@ -122,6 +133,10 @@ const Homepage = () => {
           <div className='tooltip'>
             <img src={postgresql} alt='PostgreSQL' />
             <p className='tooltiptext'> PostgreSQL</p>
+          </div>
+          <div className='tooltip'>
+            <img src={mongodb} alt='Mongo DB' />
+            <p className='tooltiptext'> Mongo DB</p>
           </div>
           <div className='tooltip'>
             <img src={express} alt='Expressjs' />
@@ -137,9 +152,12 @@ const Homepage = () => {
             <img src={altrest_app} alt='Altrest' />
             <div className='middle'>
               <div className='text'>
-                <p>ALTREST is a tenant management platform </p>
                 <p>
-                  {' '}
+                  ALTREST is a tenant management platform for submission of
+                  maintenance requests and communication
+                </p>
+                <p>
+                  {" "}
                   React || JavaScript || Nodejs || Express || CSS3 || Bootstrap
                 </p>
                 <div>
@@ -147,7 +165,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -157,14 +175,17 @@ const Homepage = () => {
             <img src={todoapp2} alt='Todo App' />
             <div className='middle'>
               <div className='text'>
-                <p>A CRUD Todo App for activity management </p>
+                <p>
+                  A CRUD Todo App for activity management with JWT
+                  authentication
+                </p>
                 <p> React || JavaScript || CSS 3 || Nodejs || Express</p>
                 <div>
                   <a href='https://my-todolist-apps.herokuapp.com/'>
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/TodoList'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -181,7 +202,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/vicky-stores'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -201,7 +222,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Calculator-App'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -221,7 +242,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/ariya'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -238,7 +259,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -255,7 +276,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/imani-portfolio/imani-portfolio'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -272,7 +293,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/oluseun-onigbinde'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -289,7 +310,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1'>
-                    <i class='fab fa-github fa-2x'></i>{' '}
+                    <i class='fab fa-github fa-2x'></i>{" "}
                   </a>
                 </div>
               </div>
@@ -304,9 +325,9 @@ const Homepage = () => {
           >
             <h2>Get in Touch</h2>
             <p>
-              Send me a message at{' '}
+              Send me a message at{" "}
               <a href='mailto:seyeonigbinde@gmail.com' alt=''>
-                seyeonigbinde@gmail.com{' '}
+                seyeonigbinde@gmail.com{" "}
               </a>
               or fill the form below:
             </p>
@@ -330,15 +351,15 @@ const Homepage = () => {
         <hr />
         <div className='footer_socials'>
           <a href='https://twitter.com/SeyeOni_Codes'>
-            {' '}
-            <i className='fab fa-twitter'></i>{' '}
+            {" "}
+            <i className='fab fa-twitter'></i>{" "}
           </a>
           <a href='https://www.linkedin.com/in/onigbindeseye/'>
-            <i className='fab fa-linkedin'></i>{' '}
+            <i className='fab fa-linkedin'></i>{" "}
           </a>
           <a href='https://github.com/seyeonigbinde'>
-            {' '}
-            <i className='fab fa-github'></i>{' '}
+            {" "}
+            <i className='fab fa-github'></i>{" "}
           </a>
           <a href='mailto:seyeonigbinde@gmail.com'>
             <i className='fas fa-envelope-square'></i>
