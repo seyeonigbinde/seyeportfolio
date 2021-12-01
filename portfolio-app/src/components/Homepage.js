@@ -157,7 +157,6 @@ const Homepage = () => {
                   maintenance requests and communication
                 </p>
                 <p>
-                  {" "}
                   React || JavaScript || Nodejs || Express || CSS3 || Bootstrap
                 </p>
                 <div>
@@ -196,7 +195,7 @@ const Homepage = () => {
             <div className='middle'>
               <div className='text'>
                 <p>Vicky Stores is an e-commerce site using FakeStoreAPI</p>
-                <p> React || JavaScript || FakeStoreAPI || CSS3 </p>
+                <p> React || JavaScript || FakeStoreAPI || Material-UI </p>
                 <div>
                   <a href='https://vicky-stores.vercel.app/'>
                     <button>View</button>
