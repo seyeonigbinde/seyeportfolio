@@ -24,6 +24,7 @@ import calculator from "../images/calculator.png"
 import imani from "../images/imani.png"
 import oluseun from "../images/oluseun.png"
 import vicky from "../images/vicky_stores.png"
+import lovingsitter from "../images/lovingsitter.png"
 
 import footer_img2 from "../images/footer_img2.jpeg"
 import Header from "./Header"
@@ -45,11 +46,10 @@ const Homepage = () => {
               <i class='fab fa-twitter fa-2x'></i>
             </a>
             <a href='https://www.linkedin.com/in/onigbindeseye/'>
-              <i class='fab fa-linkedin fa-2x'></i>{" "}
+              <i class='fab fa-linkedin fa-2x'></i>
             </a>
             <a href='https://github.com/seyeonigbinde'>
-              {" "}
-              <i class='fab fa-github fa-2x'></i>{" "}
+              <i class='fab fa-github fa-2x'></i>
             </a>
             <a href='mailto:seyeonigbinde@gmail.com'>
               <i class='fas fa-envelope-square fa-2x'></i>
@@ -88,8 +88,6 @@ const Homepage = () => {
         </div>
         <div className='about_right'></div>
       </section>
-      {/* <section id="offer">
-            </section> */}
       <section id='skills' data-aos='zoom-in-down' data-aos-duration='3000'>
         <h2>My Skill Sets</h2>
         <hr />
@@ -164,7 +162,42 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-2'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={vicky} alt='' />
+            <div className='middle'>
+              <div className='text'>
+                <p>Vicky Stores is an e-commerce site using FakeStoreAPI</p>
+                <p> React || JavaScript || FakeStoreAPI || Material-UI </p>
+                <div>
+                  <a href='https://vicky-stores.vercel.app/'>
+                    <button>View</button>
+                  </a>
+                  <a href='https://github.com/seyeonigbinde/vicky-stores'>
+                    <i class='fab fa-github fa-2x'></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='container'>
+            <img src={lovingsitter} alt='' />
+            <div className='middle'>
+              <div className='text'>
+                <p>
+                  LovingSitter is an ongoing web application that makes it
+                  easier for dog owners to find a dog sitter especially in
+                  real-time.
+                </p>
+                <p> React || TypeScript || MongoDB || Material-UI || Node </p>
+                <div>
+                  <a href='https://github.com/hatchways/team-bruschetta'>
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -184,24 +217,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/TodoList'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='container'>
-            <img src={vicky} alt='' />
-            <div className='middle'>
-              <div className='text'>
-                <p>Vicky Stores is an e-commerce site using FakeStoreAPI</p>
-                <p> React || JavaScript || FakeStoreAPI || Material-UI </p>
-                <div>
-                  <a href='https://vicky-stores.vercel.app/'>
-                    <button>View</button>
-                  </a>
-                  <a href='https://github.com/seyeonigbinde/vicky-stores'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -221,7 +237,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Calculator-App'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -241,7 +257,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/ariya'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -258,7 +274,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Easybank-Landing-Page-Challenge'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -275,7 +291,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/imani-portfolio/imani-portfolio'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -292,7 +308,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/oluseun-onigbinde'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -309,7 +325,7 @@ const Homepage = () => {
                     <button>View</button>
                   </a>
                   <a href='https://github.com/seyeonigbinde/Altrest-Tenant-App-FrontEnd-1'>
-                    <i class='fab fa-github fa-2x'></i>{" "}
+                    <i class='fab fa-github fa-2x'></i>
                   </a>
                 </div>
               </div>
@@ -324,9 +340,9 @@ const Homepage = () => {
           >
             <h2>Get in Touch</h2>
             <p>
-              Send me a message at{" "}
+              Send me a message at
               <a href='mailto:seyeonigbinde@gmail.com' alt=''>
-                seyeonigbinde@gmail.com{" "}
+                seyeonigbinde@gmail.com
               </a>
               or fill the form below:
             </p>
@@ -350,15 +366,13 @@ const Homepage = () => {
         <hr />
         <div className='footer_socials'>
           <a href='https://twitter.com/SeyeOni_Codes'>
-            {" "}
-            <i className='fab fa-twitter'></i>{" "}
+            <i className='fab fa-twitter'></i>
           </a>
           <a href='https://www.linkedin.com/in/onigbindeseye/'>
-            <i className='fab fa-linkedin'></i>{" "}
+            <i className='fab fa-linkedin'></i>
           </a>
           <a href='https://github.com/seyeonigbinde'>
-            {" "}
-            <i className='fab fa-github'></i>{" "}
+            <i className='fab fa-github'></i>
           </a>
           <a href='mailto:seyeonigbinde@gmail.com'>
             <i className='fas fa-envelope-square'></i>
